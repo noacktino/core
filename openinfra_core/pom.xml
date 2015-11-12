@@ -162,14 +162,6 @@
 		    <artifactId>jersey-media-multipart</artifactId>
 		</dependency>
 		
-		<!-- For testing the application it is recommended to use
-		     the Jersey integrated test framework. It'll automatically start a 
-		     lightweight HTTP server called grizzly. -->
-		<dependency>
-		    <groupId>org.glassfish.jersey.test-framework.providers</groupId>
-		    <artifactId>jersey-test-framework-provider-grizzly2</artifactId>
-		</dependency>
-		
 		<!-- simple json string to object converter -->
 		<dependency>
 		    <groupId>com.googlecode.json-simple</groupId>
